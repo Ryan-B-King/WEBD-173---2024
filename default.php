@@ -14,7 +14,7 @@
     <?php 
         include ("navbar.php");
     ?>
-    <a href="cart.html">CART</a>
+    
     <?php
         // CONNECTION STRING
         include ("connectDB.php");
@@ -34,6 +34,9 @@
             echo "An error occurred: $error_message" ;
         } // end try catch
     ?>
-
+    
+    <br>
+    <a href="cart.html">CART</a>
+    <br>
 </body>
 </html>
