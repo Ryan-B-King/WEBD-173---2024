@@ -1,4 +1,5 @@
 <?php 
+    include ("styles.php");
     $nav = array (
         "onSale.php"=>"On Sale",
         "equipment.php"=>"Equipment",
