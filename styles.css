@@ -1,3 +1,11 @@
 .navbar a {
     color: red;
 };
+
+#cartlink {
+    display: flex;
+};
+
+#cartlink form {
+        margin-left: auto;
+};

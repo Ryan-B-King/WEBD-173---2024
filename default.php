@@ -12,6 +12,7 @@
     <?php 
         include ("connectDB.php");
         include ("logo.php");
+        include ("cart.php");
         include ("navbar.php");
     ?>
     
