@@ -8,7 +8,7 @@
     //at this point, you have to put any variables you think are awesome into a db.
 ?>
 
-<!-- ?php
+<?php
 $file = "ipn2.txt";
 foreach ($_REQUEST as $key => $value){
     $content .= $key.'   '.$value."\n";
@@ -17,4 +17,4 @@ foreach ($_REQUEST as $key => $value){
  $fh = fopen($file,'w');
  fwrite($fh, $content);
  fclose($fh);
-?> -->
+?>
